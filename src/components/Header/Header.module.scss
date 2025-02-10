@@ -1,0 +1,15 @@
+.container {
+  width: calc(100% - 30px);
+  height: 60px;
+  padding: 0 15px;
+  background-color: rgb(211, 211, 211);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 550px;
+  height: 100%;
+}
