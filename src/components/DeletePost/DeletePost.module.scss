@@ -1,0 +1,22 @@
+.container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+
+  .inputWrapper {
+    display: flex;
+    gap: 8px;
+
+    .input {
+      width: 230px;
+      flex: 1;
+      padding: 8px;
+      border: 1px solid black;
+      border-radius: 4px;
+    }
+  }
+}

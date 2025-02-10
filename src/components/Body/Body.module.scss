@@ -23,7 +23,12 @@
 
       .titleWrapper {
         display: flex;
-        gap: 10px;
+        justify-content: space-between;
+
+        .textWrapper {
+          display: flex;
+          gap: 10px;
+        }
       }
 
       .contentWrapper {

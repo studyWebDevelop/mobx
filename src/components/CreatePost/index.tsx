@@ -1,4 +1,3 @@
-/* eslint-disable react-refresh/only-export-components */
 import clsx from "clsx";
 import Modal from "../Modal";
 import st from "./CreatePost.module.scss";

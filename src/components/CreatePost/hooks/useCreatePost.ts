@@ -25,7 +25,6 @@ const useCreatePost = (
       const data = { id, title, content, userName, password };
 
       postsStore.addPost(data);
-      localStorage.setItem("postList", JSON.stringify(data));
 
       setIsClick(false);
     },
